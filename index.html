@@ -1,0 +1,135 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title></title>
+		<script>
+			init = function() {
+
+				//originally taken from http://web.archive.org/web/20070521042812/http://public.srce.hr/~zheimer/blank.htm
+				var sLabels = new Array(
+					//English
+					"This page has been intentionally left blank.",
+					"This page is intentionally left blank.",
+					"This page left intentionally blank.",
+					//Croatian (Hrvatski)
+					"Ova je stranica namjerno ostavljena prazna.",
+					//Italian (Italiano)
+					"Questa pagina è stata lasciata intenzionalmente vuota.",
+					//Lingala
+					"Lokasa oyo etikali mpamba na ntina.",
+					//Portuguese (Português)
+					"Esta página foi propositadamente deixada em branco.",
+					"Esta página foi intencionalmente deixada em branco.",
+					"Esta página foi deixada em branco de propósito.",
+					//French (Français)
+					"Cette page a été volontairement laissée vide.",
+					"Page intentionnellement laissée vierge.",
+					//Luxemburgian
+					"Dës Säit as express wäiss gelooss gin.",
+					//Dutch (Nederlands)
+					"Deze bladzijde werd met opzet blanco gelaten.",
+					"Deze bladzijde werd opzettelijk leeg gelaten.",
+					//German (Deutsch)
+					"Diese Seite wurde absichtlich leer gelassen.",
+					//Serbian (Srpski) [Ova strana je namerno ostavljena prazna.]
+					"Ова страна је намерно остављена празна.",
+					//Slovenian (Slovenčšina)
+					"Tale stran je zanalačš pučšena prazna.",
+					//Polish (Polski)
+					"Ta strona jest celowo pusta.",
+					//Japanese [Kono peji wa wazato kaki eretenai]
+					"このページは計画的にブランクを残ている",
+					//Spanish (Español)
+					"Esta página ha sido expresamente dejada en blanco.",
+					"Página intencionalmente en blanco.",
+					//Afrikaans
+					"Hierdie bladsy is opsetlik blanko gelaat.",
+					//Hungarian (Magyar)
+					"Ez az oldal szandékosan van szabadon hagyva.",
+					//Ossetian (Ironav) [Atse sif barey u aftid.]
+					"Aтсе сиф барейу афтид.",
+					//Russian [Eta stranica narochno ostavlena pustoy.]
+					"Эта страница нарочно оставлена пустой.",
+					//Chinese [Jeh geh yeh miann wei gwo jih shing de liou bair.]
+					"這頁故意地被留下空白",
+					//Swedish (Svenska)
+					"Denna sida har avsiktligen lämnats blank.",
+					//Philippinian (Filipino)
+					"Sadyang iniwan walang laman ang pahinang ito.",
+					//Occitan
+					"Aquesta pagina foguèt volontàriament daissada en blanc",
+					//Íslenska (Icelandic)
+					"Þessi síða er auð af ásettu ráði.",
+					//Norsk (Norwegian)
+					"Denne side er tom med vilje.",
+					//Dansk (Danish)
+					"Denne side med vilje efterladt tom.",
+					"Denne side er forsætligt tom.",
+					"Denne side er bevidst efterladt tom.",
+					//Te Maori (Maori)
+					"He ātea mārika tenei whārangi.",
+					//Indonesian (Bahasa Indonesia)
+					"Kertas ini kosong dengan sengaja.",
+					//Catalan (Català)
+					"Aquesta pàgina s'ha deixat intencionadament en blanc.",
+					"Aquesta pàgina ha estat deixada en blanc voluntàriament.",
+					//Romansch
+					"Quella pagina ei laschada libra voluntaramein.",
+					//Latin
+					"Hoc vellum voluntater album mansum est.",
+					//Czech (Cesky)
+					"Tato stránka je záměrně ponechána prázdná.",
+					//Frisian (Netherlands)
+					"Dizze blêdside waard mei sin leech litten.",
+					//Esperanto (Esperanto)
+					"Paĝon intence vaka.",
+					"Paĝo intence malplena.",
+					//Suomi (Finnish)
+					"Tämä sivu on tarkoituksellisesti jätetty tyhjäksi.",
+					//Galego
+					"Ista páxina foi deixada en branco adrede.",
+					//Welsh
+					"Gadawyd y tydalen yma un wag ar bwrpas.",
+					//Bulgarian
+					"Тази страница нарочно е оставена празна.",
+					//Turkish (Türkçe)
+					"Bu sayfa özellikle boş bırakılmıştır.",
+					"Bu sayfa kasten boş bırakılmıştır.",
+					//Romanian
+					"Aceasta pagina a fost lasata libera in mod intentionat.",
+					//Korean
+					"이 페이지는 계획적으로 공백을 남겨둔다",
+					//Hindi
+					"Yeh panna jaan boojh kar khali chhora gaya hai.",
+					//Basque (Euskara)
+					"Apropos, horrialde hau zurian dago.",
+					//Quebecer (French Canadian)
+					"Cette page est laissé blanche par exprès coliss.",
+					//Pipo-taal (Limburg-Belgium)
+					"Hei stut vur usprès niks up.",
+					"Ich hub hei vur usprès niks gesjriëve.",
+					//Persian (Farsi; Iranian) [In safhe khali ast.]
+					"اين صفحه خالي است",
+					//Arabic [Torikat hathihi Alsafhah Khaliah An Kasd.]
+					"تركت هذه الصفحة خالية عن قصد",
+					//Lithuanian
+					"Šis puslapis tyčia buvo paliktas tuščias.",
+					//Tirolean (Tirolerisch)
+					"De Seitn homs obsichtlich lar lossn.",
+					//Bulgarian [Tazi stranica umishleno e ostavlena prazna.]
+					"Тази страница умишлено е оставена празна.",
+					//Bosanski
+					"Ova je stranica namjerno ostavljena prazna."
+				);
+				document.getElementById("message").innerHTML = sLabels[Math.floor((Math.random()*sLabels.length))];
+			}
+		</script>
+	</head>
+	<body onload="javascript:init()">
+		<table width="100%" height="100%">
+			<tr><td align="center" valign="middle">
+				<font id="message" color="#979aa7" size="5" face="Sans-Serif"></font>
+			</tr></td>
+		</table>
+	</body>
+</html>
